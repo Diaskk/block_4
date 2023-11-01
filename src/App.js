@@ -19,7 +19,7 @@ function StakingApp() {
               const accounts = await web3.eth.getAccounts();
               setAccount(accounts[0]);
 
-              const stakingContractAddress = '0x1b6acc00d925835f1167D370C6bb9cfDD81CE1C8';
+              const stakingContractAddress = '0x1b6acc00d925835f1167D370C6bb9cfDD81CE1C8'; //select yours
               const abi = [
                 {
                   "inputs": [
